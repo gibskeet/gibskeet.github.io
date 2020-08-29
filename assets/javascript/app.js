@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['Song: Meine Couch', 'Maybach Owner', 'Also known as gutverdiener', 'Global Elite 2', 'Faceit Level 11', 'reaper#0001'];
+  brandDescription = ['Song: Meine Couch', 'Owned by reaper', 'Co-Owner of somnia.cc', 'Shababs Botten', 'Twitter: @rauchinderlunge', 'reaper#0001'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
