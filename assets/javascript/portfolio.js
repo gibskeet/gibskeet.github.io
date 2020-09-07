@@ -1,5 +1,8 @@
 /*
-
+    {
+      name: 'The Gang',
+      link: 'coming soon',
+    },
 Credits:
     - Lummit - https://github.com/Lumm1t/
     - expl0it, shellcode.team
@@ -32,12 +35,17 @@ $(document).ready(() => {
     },
     {
       name: 'Smurf',
-      link: 'https://steamcommunity.com/id/besserverdiener',
+      link: 'https://steamcommunity.com/id/imsmokingnicotine',
     },
     {
       name: 'Group',
-      link: 'https://steamcommunity.com/groups/legitshassendiesentrick',
+      link: 'https://steamcommunity.com/groups/attackier',
     },
+    {
+      name: 'somnia.cc',
+      link: 'https://somnia.cc',
+    },
+
   ];
 
   for (let i in links) {
