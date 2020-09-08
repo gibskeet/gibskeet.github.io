@@ -42,7 +42,7 @@ $(document).ready(() => {
       link: 'https://steamcommunity.com/groups/attackier',
     },
     {
-      name: 'somnia.cc',
+      name: 'Somnia Forum',
       link: 'https://somnia.cc',
     },
 
