@@ -1,8 +1,4 @@
 /*
-    {
-      name: 'The Gang',
-      link: 'coming soon',
-    },
 Credits:
     - Lummit - https://github.com/Lumm1t/
     - expl0it, shellcode.team
@@ -35,17 +31,20 @@ $(document).ready(() => {
     },
     {
       name: 'Smurf',
-      link: 'https://steamcommunity.com/id/imsmokingnicotine',
+      link: 'https://steamcommunity.com/id/kinderdealer/',
     },
     {
       name: 'Group',
-      link: 'https://steamcommunity.com/groups/attackier',
+      link: 'https://steamcommunity.com/groups/fuerimmer187er',
     },
     {
-      name: 'Somnia Forum',
+      name: 'Twitter',
+      link: 'https://twitter.com/rauchinderlunge',
+    },
+    {
+      name: 'Forum',
       link: 'https://somnia.cc',
     },
-
   ];
 
   for (let i in links) {
@@ -64,8 +63,8 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['vac.rip']);
-  app.iconChanger(['assets/icons/moon/1.png', 'assets/icons/moon/2.png','assets/icons/moon/3.png','assets/icons/moon/4.png','assets/icons/moon/5.png','assets/icons/moon/6.png','assets/icons/moon/7.png','assets/icons/moon/8.png']);
+  app.titleChanger(['187er', '87er', '7er', 'er', 'r', 'r', 'er', '7er', '87er']);
+  app.iconChanger(['assets/icons/187.png']);
 });
 
 if ($.cookie('videoTime')) {
@@ -96,10 +95,10 @@ $('html').on('contextmenu', (event) => {
 
   const trollfaceLight = app.skippedIntro ? '' : 'trollface-light';
 
-  img.src = 'assets/others/OOF.png';
+  img.src = 'assets/others/187.png';
   img.width = 64;
   img.height = 64;
-  img.alt = '1 nn';
+  img.alt = '187';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
@@ -141,7 +140,7 @@ const writeLine = (text, speed, timeout, callback) => {
 };
 
 $.getJSON(ipgeolocation, (data) => {
-  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d;'>[vac.rip]</span>..."], 30, () => {
+  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d;'>[187er.cc]</span>..."], 30, () => {
     if (app.skippedIntro) return;
 
     clearCursor();
@@ -156,7 +155,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>v a c $ r i p</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>187er.cc</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;

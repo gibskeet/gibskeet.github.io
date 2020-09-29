@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['Song: Meine Couch', 'Owned by reaper', 'Co-Owner of somnia.cc', 'Shababs Botten', 'Twitter: @rauchinderlunge', 'reaper#0001'];
+  brandDescription = [ 'Owned by Reaper', 'Co-Owner of somnia.cc', 'Shoutouts to:', 'Noodles aka. Kokain', 'Riiterlean aka. Niils', 'Yolo$Gman aka. $iggi', 'Discord: reaper#0001'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
