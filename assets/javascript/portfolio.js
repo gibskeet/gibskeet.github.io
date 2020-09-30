@@ -58,12 +58,11 @@ $(document).ready(() => {
   }
 
   if (mobileAndTabletCheck()) {
-    $('#background').replaceWith('<div id="background" style="background-image: url(assets/images/mobile-background.jpg);"></div>');
 
-    app.shouldIgnoreVideo = true;
+    app.shouldIgnoreVideo = false;
   }
 
-  app.titleChanger(['187er', '87er', '7er', 'er', 'r', 'r', 'er', '7er', '87er']);
+  app.titleChanger(['187er']);
   app.iconChanger(['assets/icons/187.png']);
 });
 
