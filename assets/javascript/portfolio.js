@@ -26,26 +26,34 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Main',
+      name: 'MAIN',
       link: 'https://steamcommunity.com/id/gutverdiener',
     },
     {
-      name: 'Smurf',
-      link: 'https://steamcommunity.com/id/kinderdealer/',
+      name: 'SMURF',
+      link: 'https://steamcommunity.com/id/echter187er/',
     },
     {
-      name: 'Group',
+      name: 'GROUP',
       link: 'https://steamcommunity.com/groups/fuerimmer187er',
     },
     {
-      name: 'Twitter',
-      link: 'https://twitter.com/rauchinderlunge',
+      name: 'TWITTER',
+      link: 'https://twitter.com/ketamln',
+    },
+    {
+      name: 'INSTAGRAM',
+      link: 'https://instagram.com/nightmarefool',
     },
     {
       name: 'Forum',
       link: 'https://somnia.cc',
     },
-  ];
+    {
+      name: 'MAIN',
+      link: 'https://steamcommunity.com/id/gutverdiener',
+    },
+     ];
 
   for (let i in links) {
     let link = links[i];
@@ -58,8 +66,8 @@ $(document).ready(() => {
   }
 
   if (mobileAndTabletCheck()) {
-
-    app.shouldIgnoreVideo = false;
+    $('#background').replaceWith('<div id="background" style="background-image: url(assets/images/mobile-background.jpg);"></div>');
+    app.shouldIgnoreVideo = True;
   }
 
   app.titleChanger(['187er']);

@@ -6,13 +6,13 @@ class _app {
   id = 0;
   videoElement = null;
   audioElement = null;
-  musicVolume = 0.25;
+  musicVolume = 0.10;
   musicFadeIn = 4000;
   skippedIntro = false;
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = [ 'Owned by Reaper', 'Co-Owner of somnia.cc', 'Shoutouts to:', 'Noodles aka. Kokain', 'Riiterlean aka. Niils', 'Yolo$Gman aka. $iggi', 'Ekelhafte aka. $chaenderin', 'Discord: reaper#0001'];
+  brandDescription = [ 'owned by reaper', 'shoutouts to:', 'seventythree aka. oxycodon', 'niils aka. riiterlean', 'yolo$Gman aka. siggi', 'ekelhafte aka. schaenderin','niklas aka. nisibebi', 'Discord: reaper#0001'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
