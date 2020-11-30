@@ -45,14 +45,6 @@ $(document).ready(() => {
       name: 'INSTAGRAM',
       link: 'https://instagram.com/nightmarefool',
     },
-    {
-      name: 'Forum',
-      link: 'https://somnia.cc',
-    },
-    {
-      name: 'MAIN',
-      link: 'https://steamcommunity.com/id/gutverdiener',
-    },
      ];
 
   for (let i in links) {
