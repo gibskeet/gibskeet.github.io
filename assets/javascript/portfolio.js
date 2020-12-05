@@ -26,12 +26,12 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'MAIN',
-      link: 'https://steamcommunity.com/id/gutverdiener',
+      name: 'STEAM',
+      link: 'https://steamcommunity.com/id/A31B',
     },
     {
       name: 'SMURF',
-      link: 'https://steamcommunity.com/id/echter187er/',
+      link: 'https://steamcommunity.com/id/131B/',
     },
     {
       name: 'GROUP',
