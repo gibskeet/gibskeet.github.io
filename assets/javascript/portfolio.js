@@ -30,20 +30,12 @@ $(document).ready(() => {
       link: 'https://steamcommunity.com/id/A31B',
     },
     {
-      name: 'SMURF',
-      link: 'https://steamcommunity.com/id/131B/',
-    },
-    {
       name: 'GROUP',
       link: 'https://steamcommunity.com/groups/fuerimmer187er',
     },
     {
       name: 'TWITTER',
       link: 'https://twitter.com/ketamln',
-    },
-    {
-      name: 'INSTAGRAM',
-      link: 'https://instagram.com/nightmarefool',
     },
      ];
 
@@ -94,7 +86,7 @@ $('html').on('contextmenu', (event) => {
 
   const trollfaceLight = app.skippedIntro ? '' : 'trollface-light';
 
-  img.src = 'assets/others/187.png';
+  img.src = 'assets/others/OOF.png';
   img.width = 64;
   img.height = 64;
   img.alt = '187';

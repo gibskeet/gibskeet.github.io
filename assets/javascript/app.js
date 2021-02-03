@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = [ 'owned by reaper', 'shoutouts to:', 'seventythree aka. oxycodon', 'niils aka. riiterlean', 'yolo$Gman aka. siggi', 'ekelhafte aka. schaenderin','niklas aka. nisibebi', 'Discord: reaper#0001'];
+  brandDescription = [ 'owned by reaper', 'shoutouts to:', 'Oxy aka. 73', 'niils aka. riiterlean', 'yolo$Gman aka. siggi', 'janina aka. schaenderin','pouh aka. niklas', 'Discord: reaper#0001'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
