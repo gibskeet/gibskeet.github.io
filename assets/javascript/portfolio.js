@@ -31,11 +31,11 @@ $(document).ready(() => {
     },
     {
       name: 'GROUP',
-      link: 'https://steamcommunity.com/groups/fuerimmer187er',
+      link: 'https://steamcommunity.com/groups/1kopfer',
     },
     {
-      name: 'TWITTER',
-      link: 'https://twitter.com/ketamln',
+      name: 'INSTAGRAM',
+      link: 'https://www.instagram.com/nightmarefool/',
     },
      ];
 
@@ -54,8 +54,8 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = True;
   }
 
-  app.titleChanger(['187er']);
-  app.iconChanger(['assets/icons/187.png']);
+  app.titleChanger(['Ezco - Zeitdruck']);
+  app.iconChanger(['assets/icons/tor.png']);
 });
 
 if ($.cookie('videoTime')) {
