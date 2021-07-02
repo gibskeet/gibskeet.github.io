@@ -54,7 +54,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = True;
   }
 
-  app.titleChanger(['Ezco - Zeitdruck']);
+  app.titleChanger(['Gefährlich']);
   app.iconChanger(['assets/icons/tor.png']);
 });
 
